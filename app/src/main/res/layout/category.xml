@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="90dp"
+        android:text="음식의 카테고리를 정하세요."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="14pt"
+        />
+
+    <Button
+        android:id="@+id/btn_maindish"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/btn_style"
+        android:text="메인반찬"
+        android:textColor="@color/white"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_soup"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/btn_style"
+        android:text="찌개"
+        android:textColor="@color/white"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_western"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/btn_style"
+        android:text="양식"
+        android:textColor="@color/white"
+        android:textSize="11pt"
+        android:textStyle="bold" />
+
+</LinearLayout>

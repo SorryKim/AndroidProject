@@ -25,6 +25,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Youtube" android:label="Youtube"></activity>
+        <activity android:name=".CategoryActivity" android:label="메뉴 정하기"></activity>
+        <activity android:name=".RecipeActivity" android:label="레시피"></activity>
+        <activity android:name=".Roulette" android:label="룰렛 돌리기"></activity>
     </application>
 
 </manifest>

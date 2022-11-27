@@ -2,6 +2,7 @@ package com.example.myproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -77,7 +78,7 @@ public class Roulette extends AppCompatActivity {
         Bitmap bitmap = drawbleToBitmap(d);
 
         wheelItems.add(new WheelItem(Color.parseColor("#F44336"), bitmap, "김치찌개"));
-        wheelItems.add(new WheelItem(Color.parseColor("#E91E63"), bitmap, "감자탕"));
+        wheelItems.add(new WheelItem(Color.parseColor("#E91E63"), bitmap, "비빔밥"));
         wheelItems.add(new WheelItem(Color.parseColor("#9C26B0"), bitmap, "김치볶음밥"));
         wheelItems.add(new WheelItem(Color.parseColor("#3F50B0"), bitmap, "갈비탕"));
         wheelItems.add(new WheelItem(Color.parseColor("#1E84E2"), bitmap, "떡볶이"));
@@ -87,10 +88,7 @@ public class Roulette extends AppCompatActivity {
 
     }
 
-    /*
-     * drawble -> bitmap
-     * */
-
+    // drawble -> bitmap
     public static Bitmap drawbleToBitmap(Drawable drawable){
 
         if(drawable instanceof BitmapDrawable){
@@ -104,4 +102,6 @@ public class Roulette extends AppCompatActivity {
 
         return bitmap;
     }
+
+
 }
