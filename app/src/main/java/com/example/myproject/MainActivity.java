@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.myproject.MyAdapter;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,12 +21,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        FirebaseDatabase database = FirebaseDatabase.getInstance();
+        DatabaseReference myRef = database.getReference("message");
+
+
         Button btn = (Button)findViewById(R.id.btn_start);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
+                myRef.push().setValue("123123");
+                //startActivity(new Intent(getApplicationContext(), DataBase.class));
             }
         });
     }
