@@ -25,10 +25,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Youtube" android:label="Youtube"></activity>
+        <activity android:name=".YoutubeActivity" android:label="Youtube"></activity>
         <activity android:name=".CategoryActivity" android:label="메뉴 정하기"></activity>
         <activity android:name=".RecipeActivity" android:label="레시피"></activity>
-        <activity android:name=".Roulette" android:label="룰렛 돌리기"></activity>
+        <activity android:name=".RouletteActivity" android:label="룰렛 돌리기"></activity>
         <activity android:name=".DataBase" android:label="데이터베이스"></activity>
     </application>
 

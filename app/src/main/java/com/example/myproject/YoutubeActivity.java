@@ -1,12 +1,9 @@
 package com.example.myproject;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -14,7 +11,7 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerView;
 
 
-public class Youtube extends YouTubeBaseActivity {
+public class YoutubeActivity extends YouTubeBaseActivity {
 
     //객체 선언
     YouTubePlayerView playerView;
@@ -23,7 +20,7 @@ public class Youtube extends YouTubeBaseActivity {
     //유튜브 API KEY와 동영상 ID 변수 설정
     private static String API_KEY = "AIzaSyBK6FjNz0MDg1QRcMcjLYVTo77ic8t7wOE";
     //https://www.youtube.com/watch?v=hl-ii7W4ITg ▶ 유튜브 동영상 v= 다음 부분이 videoId
-    private static String videoId = "DnQ09ZZCjCs";
+    private static String videoId = "5xDL0jcnhwI";
 
     //logcat 사용 설정
     private static final String TAG = "youtube";

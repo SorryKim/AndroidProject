@@ -10,17 +10,18 @@
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="30dp"
-        android:text="오늘은 무엇을 먹을까?"
+        android:text="@string/title"
         android:textColor="@color/black"
         android:textSize="15pt"
         android:textStyle="bold" />
 
     <ImageView
+        android:id="@+id/titleImage"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
         android:layout_margin="50dp"
-        android:src="@drawable/question"/>
+        />
 
     <Button
         android:id="@+id/btn_start"
@@ -31,6 +32,7 @@
         android:background="#3A2AAA"
         android:textColor="@color/white"
         android:textSize="10pt"
-        android:text="시작"/>
+        android:text="@string/btnStart"/>
+
 
 </LinearLayout>

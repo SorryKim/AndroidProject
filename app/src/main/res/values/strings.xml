@@ -1,3 +1,22 @@
 <resources>
+    <!--MainActivity    -->
     <string name="app_name">MyProject</string>
+    <string name="title">What is we eat today?</string>
+    <string name="btnStart">Start!</string>
+
+    <!--CategoryActivity    -->
+    <string name="categroyTitle">Choose your Food Category</string>
+    <string name="maindish">Maindish</string>
+    <string name="soup">Soup</string>
+    <string name="WesternFood">WesternFood</string>
+    <string name="alert">Would you like to select this menu?</string>
+
+    <!--Food Menu -->
+    <string name="KimchiFriedrice">Kimchi fried rice</string>
+    <string name="Tteokbokki">Tteokbokki</string>
+    <string name="StirFriedPork">StirFriedPork</string>
+    <string name="Bulgogi">Bulgogi</string>
+    <string name="Chapaguri">Chapaguri</string>
+    <string name="StirfriedSundae">StirfriedSundae</string>
+
 </resources>

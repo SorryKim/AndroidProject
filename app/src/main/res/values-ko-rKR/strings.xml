@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyProject</string>
+    <string name="title">오늘은 무엇을 먹을까?</string>
+    <string name="btnStart">시작!</string>
+    <string name="categroyTitle">음식의 카테고리를 정하세요.</string>
+    <string name="maindish">메인요리</string>
+    <string name="soup">찌개</string>
+    <string name="WesternFood">양식</string>
+    <string name="KimchiFriedrice">김치볶음밥</string>
+    <string name="Tteokbokki">떡볶이</string>
+    <string name="StirFriedPork">제육볶음</string>
+    <string name="Bulgogi">불고기</string>
+    <string name="Chapaguri">짜파구리</string>
+    <string name="StirfriedSundae">순대볶음</string>
+    <string name="alert">이 메뉴로 선택하시겠습니까?</string>
+</resources>

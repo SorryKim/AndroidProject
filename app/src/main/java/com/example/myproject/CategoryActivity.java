@@ -1,17 +1,11 @@
 package com.example.myproject;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.myproject.MyAdapter;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class CategoryActivity extends AppCompatActivity {
 
@@ -37,7 +31,7 @@ public class CategoryActivity extends AppCompatActivity {
         btn_maindish.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), RecipeActivity.class);
+                Intent in = new Intent(getApplicationContext(), RouletteActivity.class);
                 in.putExtra("categoryId",0);
                 startActivity(in);
             }
@@ -47,7 +41,7 @@ public class CategoryActivity extends AppCompatActivity {
         btn_soup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), Youtube.class);
+                Intent in = new Intent(getApplicationContext(), RouletteActivity.class);
                 in.putExtra("categoryId",1);
                 startActivity(in);
             }
@@ -57,7 +51,7 @@ public class CategoryActivity extends AppCompatActivity {
         btn_western.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent in = new Intent(getApplicationContext(), Roulette.class);
+                Intent in = new Intent(getApplicationContext(), RouletteActivity.class);
                 in.putExtra("categoryId",2);
                 startActivity(in);
             }
