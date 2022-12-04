@@ -4,6 +4,19 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/recipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="NAME"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        />
+
     <Button
         android:id="@+id/gotoYoutubeButton"
         android:layout_width="300dp"
@@ -11,16 +24,37 @@
         android:layout_gravity="center"
         android:background="#BA2101"
         android:textSize="20sp"
-        android:text="Youtube"
+        android:text="@string/recipe"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/gotoReview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#12BC21"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:text="@string/gotoReview"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         />
 
+    <Button
+        android:id="@+id/checktoReview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#12BCDD"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:text="@string/checktoReview"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scrollbars="vertical"
-        android:scrollbarFadeDuration="0"/>
 
 </LinearLayout>

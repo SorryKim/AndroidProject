@@ -81,7 +81,7 @@ public class RouletteActivity extends AppCompatActivity {
             // Maindish
             case 0:
                 foods = new String[]{getResources().getString(R.string.KimchiFriedrice), getResources().getString(R.string.Tteokbokki), getResources().getString(R.string.Tteokbokki),
-                        getResources().getString(R.string.Bulgogi), getResources().getString(R.string.Chapaguri), getResources().getString(R.string.StirfriedSundae)};
+                        getResources().getString(R.string.Bulgogi), getResources().getString(R.string.Jjageuli), getResources().getString(R.string.StirfriedSundae)};
                 break;
             // Soup
             case 1:

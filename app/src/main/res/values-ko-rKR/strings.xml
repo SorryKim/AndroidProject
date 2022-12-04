@@ -11,7 +11,12 @@
     <string name="Tteokbokki">떡볶이</string>
     <string name="StirFriedPork">제육볶음</string>
     <string name="Bulgogi">불고기</string>
-    <string name="Chapaguri">짜파구리</string>
+    <string name="Jjageuli">짜글이</string>
     <string name="StirfriedSundae">순대볶음</string>
     <string name="alert">이 메뉴로 선택하시겠습니까?</string>
+    <string name="submit">제출</string>
+    <string name="cancel">취소</string>
+    <string name="gotoReview">리뷰남기러가기</string>
+    <string name="recipe">레시피확인</string>
+    <string name="checktoReview">리뷰확인하러가기</string>
 </resources>

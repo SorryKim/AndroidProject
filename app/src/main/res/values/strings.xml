@@ -16,7 +16,13 @@
     <string name="Tteokbokki">Tteokbokki</string>
     <string name="StirFriedPork">StirFriedPork</string>
     <string name="Bulgogi">Bulgogi</string>
-    <string name="Chapaguri">Chapaguri</string>
+    <string name="Jjageuli">Jjageuli</string>
     <string name="StirfriedSundae">StirfriedSundae</string>
 
+    <!--review    -->
+    <string name="submit">submit</string>
+    <string name="cancel">cancel</string>
+    <string name="gotoReview">Go To Reivew</string>
+    <string name="checktoReview">Check To Reivew</string>
+    <string name="recipe">Recipe</string>
 </resources>

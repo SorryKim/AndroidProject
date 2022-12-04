@@ -2,38 +2,34 @@ package com.example.myproject;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
-public class RecipeActivity extends AppCompatActivity implements MyAdapter.ItemClickListener{
+public class RecipeActivity extends AppCompatActivity{
 
-    MyAdapter adapter;
-    Button btnYoutube;
+    Button btnYoutube, btnReview, btnCheck;
+    TextView textview;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recipe);
-
+        textview = findViewById(R.id.recipeName);
+        btnCheck = findViewById(R.id.checktoReview);
         btnYoutube = findViewById(R.id.gotoYoutubeButton);
-
+        btnReview = findViewById(R.id.gotoReview);
         Intent intent = getIntent();
         String str = intent.getStringExtra("selectedFood");
-        String[] data = new String[100];
-        for(int i = 1; i <= 100; i++){
-            data[i - 1] = str + i;
-        }
+        btnClick(str);
+        textview.setText(str);
+    }
 
-        RecyclerView recyclerView = findViewById(R.id.rview);
-        int columns = 3;
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new MyAdapter(this, data);
-        adapter.setClickListener(this);
-        recyclerView.setAdapter(adapter);
+
+
+    private void btnClick(String str){
 
         btnYoutube.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -43,11 +39,24 @@ public class RecipeActivity extends AppCompatActivity implements MyAdapter.ItemC
                 startActivity(in);
             }
         });
-    }
 
-    @Override
-    public void onItemClick(View view, int position){
-        Log.i("TAG", "ITEM: " + adapter.getItem(position) + "number: " + position);
+        btnReview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ReviewActivity.class));
+            }
+        });
+
+        btnCheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(getApplicationContext(), ReviewListActivity.class));
+            }
+        });
+
+
+
     }
 
 }

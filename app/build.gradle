@@ -33,9 +33,11 @@ android {
 dependencies {
 
     implementation 'com.github.mmoamenn:LuckyWheel_Android:0.3.0'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.26'
     implementation files('C:\\Users\\82108\\AndroidStudioProjects\\MyProject\\app\\libs\\YouTubeAndroidPlayerApi.jar')
     implementation 'com.google.firebase:firebase-auth:21.1.0'
     implementation 'com.google.firebase:firebase-database:20.1.0'
