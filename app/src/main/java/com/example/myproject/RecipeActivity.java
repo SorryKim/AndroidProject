@@ -18,7 +18,6 @@ public class RecipeActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recipe);
         textview = findViewById(R.id.recipeName);
-        btnCheck = findViewById(R.id.checktoReview);
         btnYoutube = findViewById(R.id.gotoYoutubeButton);
         btnReview = findViewById(R.id.gotoReview);
         Intent intent = getIntent();
@@ -43,18 +42,11 @@ public class RecipeActivity extends AppCompatActivity{
         btnReview.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), ReviewActivity.class));
+                Intent in = new Intent(getApplicationContext(), MemoListActivity.class);
+                in.putExtra("selectedFood", str);
+                startActivity(in);
             }
         });
-
-        btnCheck.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                startActivity(new Intent(getApplicationContext(), ReviewListActivity.class));
-            }
-        });
-
 
 
     }

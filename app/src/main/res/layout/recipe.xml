@@ -43,18 +43,5 @@
         android:textColor="@color/white"
         />
 
-    <Button
-        android:id="@+id/checktoReview"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:background="#12BCDD"
-        android:textSize="20sp"
-        android:layout_margin="20dp"
-        android:text="@string/checktoReview"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        />
-
 
 </LinearLayout>

@@ -22,7 +22,6 @@
     <!--review    -->
     <string name="submit">submit</string>
     <string name="cancel">cancel</string>
-    <string name="gotoReview">Go To Reivew</string>
-    <string name="checktoReview">Check To Reivew</string>
+    <string name="gotoReview">Review Space</string>
     <string name="recipe">Recipe</string>
 </resources>
