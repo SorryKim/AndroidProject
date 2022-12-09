@@ -85,14 +85,15 @@ public class RouletteActivity extends AppCompatActivity {
                 break;
             // Soup
             case 1:
-                foods = new String[]{"김치찌개", "감자탕", "닭개장", "갈비탕", "북엇국", "된장찌개"};
+                foods = new String[]{getResources().getString(R.string.Kimchistew), getResources().getString(R.string.Gamjatang), getResources().getString(R.string.BudaeJjigae), getResources().getString(R.string.Galbitang), getResources().getString(R.string.SoybeanPasteStew), getResources().getString(R.string.EggSoup)};
                 break;
             // Westernfood
             case 2:
-                foods = new String[]{"돈까스", "비빔밥", "김치볶음밥", "갈비탕", "떡볶이", "불고기"};
+                foods = new String[]{getResources().getString(R.string.PorkCutlet),getResources().getString(R.string.EggCheeseToast) ,getResources().getString(R.string.CreamPasta) ,getResources().getString(R.string.Hamburger) ,getResources().getString(R.string.Steak) ,getResources().getString(R.string.Pizza) };
                 break;
             default:
-                foods = new String[]{"김치볶음밥", "떡볶이", "제육볶음", "불고기", "짜파구리", "순대볶음"};
+                foods = new String[]{getResources().getString(R.string.KimchiFriedrice), getResources().getString(R.string.Tteokbokki), getResources().getString(R.string.Tteokbokki),
+                        getResources().getString(R.string.Bulgogi), getResources().getString(R.string.Jjageuli), getResources().getString(R.string.StirfriedSundae)};
         }
 
         Drawable d = getResources().getDrawable(R.drawable.ic_baseline_thumb_up_alt_24, null);

@@ -58,9 +58,13 @@ public class MemoListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memo_list);
+
+        // 변수 초기화
         path = getIntent().getStringExtra("selectedFood");
         arrayList = new ArrayList<Memo>();
         memoAdapter = new MemoAdapter(this, arrayList);
+
+        // 리사이클러뷰
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         recyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL));
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -81,6 +85,8 @@ public class MemoListActivity extends AppCompatActivity {
             }
         });
 
+
+        // Firebase
         this.ref = FirebaseDatabase.getInstance().getReference(path);
         this.ref.addValueEventListener(firebaseListener);
     }
@@ -91,6 +97,8 @@ public class MemoListActivity extends AppCompatActivity {
         return true;
     }
 
+
+    // 객체 추가
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -104,6 +112,7 @@ public class MemoListActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    // 객체 삭제
     private void removeMemos() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Confirm");
@@ -122,6 +131,8 @@ public class MemoListActivity extends AppCompatActivity {
         dialog.show();
     }
 
+
+    // 넘기기
     public void onMemoClicked(int index) {
         Intent intent = new Intent(this, MemoActivity.class);
         Memo memo = arrayList.get(index);

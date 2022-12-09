@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_main.xml" value="0.24230072463768115" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_memo.xml" value="0.24230072463768115" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/activity_memo_list.xml" value="0.24230072463768115" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/recipe.xml" value="0.24230072463768115" />
+        <entry key="..\:/AndroidProject/app/src/main/res/layout/youtube.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/82108/AndroidStudioProjects/MyProject/app/src/main/res/drawable-v24/ic_money.xml" value="0.2785" />
         <entry key="..\:/Users/82108/AndroidStudioProjects/MyProject/app/src/main/res/drawable/btn_style.xml" value="0.2175" />
         <entry key="..\:/Users/82108/AndroidStudioProjects/MyProject/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.186" />

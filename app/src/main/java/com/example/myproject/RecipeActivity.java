@@ -27,8 +27,8 @@ public class RecipeActivity extends AppCompatActivity{
     }
 
 
-
-    private void btnClick(String str){
+    // 버튼 클릭처리리
+   private void btnClick(String str){
 
         btnYoutube.setOnClickListener(new View.OnClickListener() {
             @Override

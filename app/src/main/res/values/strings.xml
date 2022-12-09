@@ -18,7 +18,18 @@
     <string name="Bulgogi">Bulgogi</string>
     <string name="Jjageuli">Jjageuli</string>
     <string name="StirfriedSundae">StirfriedSundae</string>
-
+    <string name="Kimchistew">Kimchi stew</string>
+    <string name="Gamjatang">Gamjatang</string>
+    <string name="Galbitang">Galbitang</string>
+    <string name="SoybeanPasteStew">Soybean Paste Stew</string>
+    <string name="BudaeJjigae">Budae Jjigae</string>
+    <string name="EggSoup">Egg Soup</string>
+    <string name="PorkCutlet">Pork Cutlet</string>
+    <string name="EggCheeseToast">Egg Cheese Toast</string>
+    <string name="CreamPasta">Cream Pasta</string>
+    <string name="Hamburger">Hamburger</string>
+    <string name="Steak">Steak</string>
+    <string name="Pizza">Pizza</string>
     <!--review    -->
     <string name="submit">submit</string>
     <string name="cancel">cancel</string>

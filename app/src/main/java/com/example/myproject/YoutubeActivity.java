@@ -77,6 +77,42 @@ public class YoutubeActivity extends AppCompatActivity {
         if(name.equals(getResources().getString(R.string.Jjageuli)))
             url = "6AotE8eVxa8";
 
+        if(name.equals(getResources().getString(R.string.Kimchistew)))
+            url = "siDln_TfVm8";
+
+        if(name.equals(getResources().getString(R.string.Gamjatang)))
+            url = "Wn3p6bKxSXU";
+
+        if(name.equals(getResources().getString(R.string.Galbitang)))
+            url = "Ot8rOHITb64";
+
+        if(name.equals(getResources().getString(R.string.SoybeanPasteStew)))
+            url = "n8lMW8OFu_o";
+
+        if(name.equals(getResources().getString(R.string.BudaeJjigae)))
+            url = "Ore5b-hcAK4";
+
+        if(name.equals(getResources().getString(R.string.EggSoup)))
+            url = "mP8kb2BUK9s";
+
+        if(name.equals(getResources().getString(R.string.PorkCutlet)))
+            url = "Ygrzqtfb178";
+
+        if(name.equals(getResources().getString(R.string.EggCheeseToast)))
+            url = "qw7letv1DJw";
+
+        if(name.equals(getResources().getString(R.string.CreamPasta)))
+            url = "83oVI8nhmAA";
+
+        if(name.equals(getResources().getString(R.string.Hamburger)))
+            url = "NAVuMnDxYEY";
+
+        if(name.equals(getResources().getString(R.string.Steak)))
+            url = "64LaC4xb6Zg";
+
+        if(name.equals(getResources().getString(R.string.Pizza)))
+            url = "5Ay74by0pHc";
+
 
     }
 
